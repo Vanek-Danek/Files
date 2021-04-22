@@ -1,28 +1,40 @@
 #all {
-    background-color: rgba(0, 0, 0, 0.72);
-    
+    background-color: rgba(0, 0, 0, 0.72);   
 }
 
-.header {
-    margin-top: 7px;
-    text-align: center;
+.header {  
+    
+    position: absolute;
     color: white;
     font-size: 40px;
     font-weight: bolder;
     font-family: Comic Sans MS;
     -webkit-text-stroke: 2.6px black;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0px;
+    height: 100px;
+    overflow-x: hidden;
     
     
 }
 
-.header:hover {
-    color: rgba(0,0,0,0.6);
+.Zag {
+    position: absolute;
+    top: -40px;
+    padding-left: 2%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    
+    overflow-x: hidden;
+}
 
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+.Zag:hover {
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgb(255, 253, 253);
     transition-property: color;
     transition-duration: 0.5s;
     color: grey;
-    
-    
-    
 }
