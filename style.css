@@ -1,40 +1,91 @@
-#all {
-    background-color: rgba(0, 0, 0, 0.72);   
+html {
+    background-color: #2b2e4a;   
 }
 
-.header {  
-    
+.nav {
+    top: 0;
+    left: 0;    
     position: absolute;
-    color: white;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    background-image: -webkit-linear-gradient(#303030 0%, #151515 100%);  
+}
+
+.gbar {
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    top: 38px;
+    position: fixed;
+}
+
+.Ret {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: -2px
+}
+
+.Themes {
+    position: absolute;
+    left: 40px;
+    top: -15px;
+}
+
+.Profiles {
+    position: absolute;
+    left: 300px;
+    top: -15px;
+
+}
+.Chats {
+    position: absolute;
+    left: 180px;
+    top: -15px;
+}
+
+.active {
+    text-decoration: none;
+    font-size: 30px;
+    transition: 1.2s;
+    top: -15px;
+    text-shadow:
+    -2px -2px #000,
+    0 1px 0 #444;
+    color: #b4a5a5;
+    transition: all 1.5s;
+}
+
+.active:hover {
+    color: #aa2ee6;
+}
+
+#settings {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 80px;
+    top: 7px;
+
+   
+}
+
+.main_block {
+    position: absolute;
+    margin: 60px 300px;
+    width: 50%;
+    height: 100%;
+    border:2px solid #fff; 
+    background-color: #1b1717;
+    
+}
+.main {
+    position: absolute;
     font-size: 40px;
-    font-weight: bolder;
-    font-family: Comic Sans MS;
-    -webkit-text-stroke: 2.6px black;
-    display: inline-block;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    top: 0px;
-    height: 100px;
-    overflow-x: hidden;
-    
-    
-}
-
-.Zag {
-    position: absolute;
+    border:2px solid #fff; 
     top: -40px;
-    padding-left: 2%;
-    width: 100%;
-    background-color: rgb(54, 54, 54);
-    
-    overflow-x: hidden;
-}
-
-.Zag:hover {
-    color: rgba(0,0,0,0.6);
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgb(255, 253, 253);
-    transition-property: color;
-    transition-duration: 0.5s;
-    color: grey;
+    color: rgb(214, 214, 214)
 }
