@@ -1,0 +1,178 @@
+html {
+ background-color: rgb(41, 42, 42);
+}
+
+.nav {
+    top: 0;
+    left: 0;    
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    background-image: -webkit-linear-gradient(#303030 0%, #151515 100%);  
+}
+
+.gbar {
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    top: 38px;
+    position: fixed;
+}
+
+.Ret {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: -44px;
+}
+
+.Market {
+    position: absolute;
+    left: 80px;
+    top: -15px;
+}
+
+.Profile {
+    position: absolute;
+    left: 330px;
+    top: -15px;
+
+}
+.Forum {
+    position: absolute;
+    left: 210px;
+    top: -15px;
+}
+
+.active {
+    text-decoration: none;
+    font-size: 30px;
+    transition: 1.2s;
+    top: -15px;
+    text-shadow:
+    -2px -2px #000,
+    0 1px 0 #444;
+    color: #b4a5a5;
+    transition: all 1.5s;
+}
+
+.active:hover {
+    color: #aa2ee6;
+}
+
+#settings {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 80px;
+    top: 7px; 
+}
+
+.main_block {
+    position: absolute;
+    margin: 60px 470px;
+    width: 50%;
+    height: 100%;
+    background-color: #202020;
+    
+}
+.main {
+    position: absolute;
+    font-size: 40px;
+    top: -40px;
+    color: rgb(214, 214, 214)
+}
+
+.Home {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+
+}
+
+.menu__list {
+    position: absolute;
+    z-index: 2;
+    right: 120px;
+    font-size: 23px;
+    text-decoration: none;
+    top: 20px;
+    position: fixed;
+}
+
+.menu__list a {
+    text-decoration: none;
+}
+.menu__list li {
+    list-style: none; 
+}
+
+.menu__list>li:hover .sub__menu {
+    display: block;
+
+}
+.sub__menu {
+    display: none;
+    position:absolute;
+    line-height: 30px;
+    right: -90px;
+    background-color: #fff;
+    top: -10px;
+    padding: 5px 0px 0px 0px;
+
+}
+
+.sub__menu:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+
+.sub__menu:hover:before {
+    height: 42px;
+}
+
+.raiting {
+    position: absolute;
+    top: 68px;
+    left: 130px;
+    height: 900px;
+    width: 300px;
+    background-color: #202020;
+}
+
+.text__foot {
+    position: absolute;
+    height: 50px;
+    bottom: -130px;
+    width: max-content;
+    right: 900px;
+}
+
+.callback {
+    text-decoration: none;
+    color: white;
+}
+
+.pokaNePrid {
+    position: absolute;
+    top: 68px;
+    right: 130px;
+    height: 900px;
+    width: 300px;
+    background-color: #202020;
+}
+
+.dev {
+    position: relative;
+}
